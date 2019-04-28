@@ -17,16 +17,16 @@ CREATE DATABASE mascota
 
 CREATE TABLE public.animal
 (
-    id_aminal integer NOT NULL,
+    id_animal integer NOT NULL,
     desc_animal character varying(50) COLLATE pg_catalog."default",
-    CONSTRAINT pk_animal__01 PRIMARY KEY (id_aminal)
+    CONSTRAINT pk_animal__01 PRIMARY KEY (id_animal)
 )
 WITH (
     OIDS = FALSE
 )
 TABLESPACE pg_default;
 
-COMMENT ON COLUMN public.animal.id_aminal
+COMMENT ON COLUMN public.animal.id_animal
     IS 'id del animal';
 
 COMMENT ON COLUMN public.animal.desc_animal
