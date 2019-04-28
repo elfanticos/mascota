@@ -5,5 +5,5 @@ const express = require('express'),
     api       = express.Router();
 
 api
-    .get('/getCombosByMascota', ctrl.getCombosByMascota)
+    .get('/getCombosByMascota',ensureAuth, ctrl.getCombosByMascota)
 module.exports = api;

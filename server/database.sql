@@ -139,3 +139,54 @@ WITH (
     OIDS = FALSE
 )
 TABLESPACE pg_default;
+
+
+
+INSERT INTO animal(id_animal, desc_animal)
+VALUES
+(1,'Perro'),
+(2,'Gato');
+
+INSERT 
+  INTO alimento
+VALUES (1,1,'Casera'),
+(1,2,'Mixta (Casera y Balanceado)'),
+(1,3,'Balanceado - Dog Chow'),
+(1,4,'Balanceado - Royal Canin'),
+(1,5,'Balanceado - Eukanuba'),
+(1,6,'Balanceado - Science Diet'),
+(1,7,'Balanceado - Proplan'),
+(1,8,'Balanceado - Ricocan'),
+(1,9,'Balanceado- Mimaskot'),
+(1,10,'Balanceado- Varios - Cambio constantemente'),
+(1,11,'Alimento húmedo en latas'),
+(1,12,'Balanceado Holístico');
+
+INSERT 
+  INTO edades
+VALUES
+(1,1,'Cachorro (0 a 2 meses)'),
+(1,2,'Cachorro (2 a 4 meses)'),
+(1,3,'Cachorro (4 a 6 meses)'),
+(1,4,'Cachorro (6 a 12 meses)'),
+(1,5,'Maduro Senior Adulto( 7 años a más)'),
+(1,6,'Preñada');
+
+INSERT 
+  INTO raza
+VALUES
+(1,1,'Mestizo'),
+(1,2,'Beagle'),
+(1,3,'Bichón maltés'),
+(1,4,'Boxer'),
+(1,5,'Bulldog francés'),
+(1,6,'Bulldog ingles');
+
+INSERT 
+  INTO size
+VALUES
+(1,1,'Raza Pequeña (1 -10 Kilos)'),
+(1,2,'Raza Mediana (11-25 kg)'),
+(1,3,'Raza Grande( 26 -44 kg)'),
+(1,4,'Raza Gigante (más de 45 Kilos)'),
+(1,5,'Raza Pequeña (1 -10 Kilos)');

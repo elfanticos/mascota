@@ -4,6 +4,8 @@ global.HTTP_200 = 200;
 global.HTTP_400 = 400;
 global.HTTP_500 = 500;
 
+global.MSJ_ERROR = 'Hubo un error';
+
 
 /**
  * Función para devolver el servicio cuando falla y que imprime un log en servidor
